@@ -122,29 +122,32 @@
                 <!-- ============================================================== -->
                 <ExplicitPatternGroup TokenKey="ImportExportKeyWordToken" Style="ImportExportKeyWordStyle" LookAhead="{NonWordMacro}|\z">
                     <ExplicitPatterns>
-                        SRC_DATABASE
-                        SRC_DATETIME_FORMAT
-                        SRC_FILE
-                        SRC_FILE_FIELD_LIST
-                        SRC_FILE_FIELD_LOAD_LIST
-                        SRC_FILE_FIELD_SEPARATOR
-                        SRC_FILE_HEADER_ROWS
-                        SRC_FILE_MAX_ROWS
-                        SRC_FILE_TEXT_QUALIFIER
-                        SRC_SERVER
-                        SRC_TYPE
-                        TGT_COMMIT_INTERVAL
-                        TGT_DATETIME_FORMAT
-                        TGT_EXISTS_ACTION
-                        TGT_FILE
-                        TGT_INCLUDE_FIELD_NAMES
-                        TGT_FILE_FIELD_SEPARATOR
-                        TGT_FILE_TEXT_QUALIFIER
-                        TGT_LOAD_TYPE
-                        TGT_TABLE
-                        TGT_TRUNCATE
-                        TGT_TYPE
-                        TGT_UPDATE_KEY_FIELD_LIST
+                      SRC_DATABASE
+                      SRC_DATETIME_FORMAT
+                      SRC_FILE
+                      SRC_FILE_FIELD_LIST
+                      SRC_FILE_FIELD_LOAD_LIST
+                      SRC_FILE_FIELD_SEPARATOR
+                      SRC_FILE_HEADER_ROWS
+                      SRC_FILE_MAX_ROWS
+                      SRC_FILE_NULL_TEXT
+                      SRC_FILE_IGNORE_EMPTY_LINES
+                      SRC_FILE_IGNORE_LINES_MATCHING
+                      SRC_FILE_TEXT_QUALIFIER
+                      SRC_SERVER
+                      SRC_TYPE
+                      TGT_COMMIT_INTERVAL
+                      TGT_DATETIME_FORMAT
+                      TGT_EXISTS_ACTION
+                      TGT_FILE
+                      TGT_INCLUDE_FIELD_NAMES
+                      TGT_FILE_FIELD_SEPARATOR
+                      TGT_FILE_TEXT_QUALIFIER
+                      TGT_LOAD_TYPE
+                      TGT_TABLE
+                      TGT_TRUNCATE
+                      TGT_TYPE
+                      TGT_UPDATE_KEY_FIELD_LIST
                     </ExplicitPatterns>
                 </ExplicitPatternGroup>
 
