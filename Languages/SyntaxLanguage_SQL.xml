@@ -129,11 +129,12 @@
                       SRC_FILE_FIELD_LOAD_LIST
                       SRC_FILE_FIELD_SEPARATOR
                       SRC_FILE_HEADER_ROWS
-                      SRC_FILE_MAX_ROWS
-                      SRC_FILE_NULL_TEXT
                       SRC_FILE_IGNORE_EMPTY_LINES
                       SRC_FILE_IGNORE_LINES_MATCHING
+                      SRC_FILE_MAX_ROWS
+                      SRC_FILE_NULL_TEXT
                       SRC_FILE_TEXT_QUALIFIER
+                      SRC_FILE_TRIM_CHAR_VALUES
                       SRC_SERVER
                       SRC_TYPE
                       TGT_COMMIT_INTERVAL
@@ -171,16 +172,16 @@
                         BETWEEN
                         CASE
                         DEFAULT DESC DISTINCT
-                        ELSE END
+                        ELSE END EXCEPT
                         FULL
-                        IN INNER
+                        IN INNER INTERSECT
                         JOIN
                         LEFT LIKE
                         NOT NULL
                         ON OR OUTER
                         RIGHT
                         SET
-                        TABLE
+                        TABLE TEST_DATA
                         THEN
                         UNION
                         WHEN
