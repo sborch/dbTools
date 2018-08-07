@@ -131,6 +131,7 @@
                       SRC_FILE_HEADER_ROWS
                       SRC_FILE_IGNORE_EMPTY_LINES
                       SRC_FILE_IGNORE_LINES_MATCHING
+                      SRC_FILE_IGNORE_SSMS_SQL_BLOCK
                       SRC_FILE_MAX_ROWS
                       SRC_FILE_NULL_TEXT
                       SRC_FILE_TEXT_QUALIFIER
