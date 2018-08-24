@@ -31,12 +31,18 @@
         <Style Key="VariableStyle"              ForeColor="Teal"                />
         <Style Key="SystemVariableStyle"        ForeColor="Teal"                />
         <Style Key="NumberStyle"                ForeColor="Purple"              />
+      
         <Style Key="StringDelimiterStyle"       ForeColor="Red"                 />
         <Style Key="StringDefaultStyle"         ForeColor="Red"                 />
-        <Style Key="SquareStringDelimiterStyle" ForeColor="Black"               />
-        <Style Key="SquareStringDefaultStyle"   ForeColor="Black"               />
+      
+        <!-- <Style Key="StringDelimiterStyle2"      ForeColor="Red"                 /> -->
+        <!-- <Style Key="StringDefaultStyle2"        ForeColor="Red"                 /> -->
+        <!-- <Style Key="SquareStringDelimiterStyle" ForeColor="Black"               /> -->
+        <!-- <Style Key="SquareStringDefaultStyle"   ForeColor="Black"               /> -->
+        
         <Style Key="CommentDelimiterStyle"      ForeColor="Green"               />
         <Style Key="CommentDefaultStyle"        ForeColor="Green"               />
+    
     </Styles>
 
     <!-- ==================================================================== -->
@@ -317,6 +323,7 @@
             <ChildStates>
                 <ChildState Key="StringState" />
                 <ChildState Key="SquareStringState" />
+                <ChildState Key="StringState2" />
                 <ChildState Key="CommentState" />
                 <ChildState Key="MultiLineCommentState" />
                 <ChildState Key="NameState" />
@@ -344,6 +351,30 @@
             <!-- ================================================================ -->
             <PatternGroups>
                 <RegexPatternGroup TokenKey="StringDefaultToken" PatternValue="[^']+" />
+            </PatternGroups>
+
+        </State>
+
+        <!-- ================================================================== -->
+        <!-- String State 2 -->
+        <!-- ================================================================== -->
+        <State Key="StringState2" TokenKey="StringDefaultToken2" Style="StringDefaultStyle">
+
+            <!-- ================================================================ -->
+            <!-- String State Scopes -->
+            <!-- ================================================================ -->
+            <Scopes>
+              <Scope>
+                <ExplicitPatternGroup Type="StartScope" TokenKey="StringStartToken2" Style="StringDelimiterStyle" PatternValue='"' />
+                <ExplicitPatternGroup Type="EndScope"   TokenKey="StringEndToken2"   Style="StringDelimiterStyle" PatternValue='"' />
+              </Scope>
+            </Scopes>
+
+            <!-- ================================================================ -->
+            <!-- String State Pattern Groups -->
+            <!-- ================================================================ -->
+            <PatternGroups>
+              <RegexPatternGroup TokenKey="StringDefaultToken2" PatternValue='[^"]+' />
             </PatternGroups>
 
         </State>
