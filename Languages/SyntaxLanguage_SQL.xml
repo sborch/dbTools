@@ -138,6 +138,7 @@
                       SRC_FILE_IGNORE_EMPTY_LINES
                       SRC_FILE_IGNORE_LINES_MATCHING
                       SRC_FILE_IGNORE_SSMS_SQL_BLOCK
+                      SRC_FILE_IGNORE_SSMS_ROWS_AFFECTED
                       SRC_FILE_NULL_FILL_MISSING_FIELDS
                       SRC_FILE_MAX_ROWS
                       SRC_FILE_NULL_TEXT
