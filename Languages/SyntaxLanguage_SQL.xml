@@ -152,7 +152,6 @@
                       TGT_FILE
                       TGT_INCLUDE_FIELD_NAMES
                       TGT_FILE_FIELD_SEPARATOR
-                      TGT_FILE_TEXT_QUALIFIER
                       TGT_LOAD_TYPE
                       TGT_TABLE
                       TGT_TRUNCATE
