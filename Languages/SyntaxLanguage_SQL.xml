@@ -119,7 +119,7 @@
                 <!-- ============================================================== -->
                 <ExplicitPatternGroup TokenKey="StatementClauseToken" Style="StatementClauseStyle" LookAhead="{NonWordMacro}|\z">
                     <ExplicitPatterns>
-                        BY FROM GROUP HAVING ORDER WHERE
+                        BY FROM INTO GROUP HAVING ORDER WHERE
                     </ExplicitPatterns>
                 </ExplicitPatternGroup>
 
