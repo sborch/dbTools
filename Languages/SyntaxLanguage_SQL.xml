@@ -101,7 +101,7 @@
                 <!-- ============================================================== -->
                 <ExplicitPatternGroup TokenKey="StatementStartToken" Style="StatementStartStyle" LookAhead="{NonWordMacro}|\z">
                     <ExplicitPatterns>
-                        ALTER ATTACH CREATE DATA_EXEC DATA_EXECUTE DESCRIBE DELETE DETACH DROP EXEC EXECUTE EXPLAIN EXPORT IMPORT INSERT PRAGMA SELECT TRANSFORM TRUNCATE UPDATE VACUUM WITH
+                        ALTER ATTACH CREATE DATA_EXEC DATA_EXECUTE DESCRIBE DELETE DETACH DROP EXEC EXECUTE EXPLAIN EXPORT IMPORT INSERT PRAGMA SELECT TEST_DATA TRANSFORM TRUNCATE UPDATE VACUUM WITH
                     </ExplicitPatterns>
                 </ExplicitPatternGroup>
 
@@ -189,7 +189,7 @@
                         ON OR OUTER
                         RIGHT
                         SET
-                        TABLE TEST_DATA
+                        TABLE
                         THEN
                         UNION
                         WHEN
