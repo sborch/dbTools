@@ -176,7 +176,7 @@
                     <ExplicitPatterns>
 
                         ALL AND ASC
-                        BETWEEN
+                        BEGIN BETWEEN
                         CASE
                         DEFAULT DESC DISTINCT
                         ELSE END EXCEPT
